@@ -6,10 +6,11 @@ local comp_files = {
     "arrestdb_request.lua", 
     "ifttt_maker_request.lua", 
     "pushingbox_request.lua", 
-    "thingspeak_request.lua"
+    "thingspeak_request.lua", 
+    "openhab_request.lua"
 }
 
-for count = 1, 7 do
+for count = 1, 8 do
     if file.open(comp_files[count], "r") then
         file.close()
         node.compile(comp_files[count])

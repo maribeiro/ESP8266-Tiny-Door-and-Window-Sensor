@@ -27,6 +27,7 @@ SENSOR_ID = "1"
 -- The service to use (choose one and configure the corresponding "..._request.lua" script)
 ----------------------------------------------------------
 api_request = "arrestdb_request"
+--api_request = "openhab_request"
 --api_request = "iftft_maker_request"
 --api_request = "thingspeak_request"
 --api_request = "pushingbox_request"
